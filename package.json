@@ -1,0 +1,25 @@
+{
+  "name": "avbasics",
+  "version": "0.0.1",
+  "description": "This project follows the teachings of Mark Boas (originally from Frontend-Masters) from Pluralsight website in a course called HMTL5 Audio, Video and WebRTC.",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnergeticPixels/ps-avbasics.git"
+  },
+  "keywords": [
+    "html5",
+    "pluralsight",
+    "joes",
+    "coffeeshop"
+  ],
+  "author": "Anthony Jackman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnergeticPixels/ps-avbasics/issues"
+  },
+  "homepage": "https://github.com/EnergeticPixels/ps-avbasics#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
