@@ -4,9 +4,37 @@
 		<title></title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="css/style.css" rel="stylesheet">
+		<link href="./styles/normalize.css" rel="stylesheet">
+		<link href='./styles/skeleton.css' rel='stylesheet'>
+		<link href='./styles/project.css' rel='stylesheet'>
 	</head>
 	<body>
-	
+		<header></header>
+		<main class='container'>
+			<section class='row'>
+
+				<article id='audioPlayer' class='six columns'>
+					<audio controls>
+						<source src="./medias/Miaow-01-Tempered-song.mp3" type="audio/mpeg" >
+						<source src="./medias/Miaow-01-Tempered-song.ogg" type="audio/ogg" >
+						<a href="http://jPlayer.org/audio/mp3/Miaow-01-Tempered-song.mp3">http://jPlayer.org/audio/mp3/Miaow-01-Tempered-song.mp3</a>
+					</audio>
+				</article>
+
+				<article id='videoPlayer' class='six columns'>
+					<video width="320" height="240" controls>
+						<source src="./medias/Big_Buck_Bunny_Trailer.m4v" type="video/mp4" >
+						<source src="./medias/Big_Buck_Bunny_Trailer.ogv" type="video/ogg" >
+						<source src="./medias/Big_Buck_Bunny_Trailer.webm" type="video/webm" > 
+						<a href="http://jPlayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v">http://jPlayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v</a>
+					</video>
+				</article>
+
+
+
+			</section>
+		</main>
+		<footer></footer>
+		
 	</body>
 </html>
