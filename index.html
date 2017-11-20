@@ -14,20 +14,30 @@
 			<section class='row'>
 
 				<article id='audioPlayer' class='six columns'>
-					<audio controls>
+					<audio id='my-audio'>
 						<source src="./medias/Miaow-01-Tempered-song.mp3" type="audio/mpeg" >
 						<source src="./medias/Miaow-01-Tempered-song.ogg" type="audio/ogg" >
 						<a href="http://jPlayer.org/audio/mp3/Miaow-01-Tempered-song.mp3">http://jPlayer.org/audio/mp3/Miaow-01-Tempered-song.mp3</a>
 					</audio>
+					<!-- play - pause button -->
+					<button type='button' id='playAudioBtn'>Play Audio</button>
+					<br />
+					<br />
+					<button type='button' id='pauseAudioBtn'>Pause Audio</button>
 				</article>
 
 				<article id='videoPlayer' class='six columns'>
-					<video width="320" height="240" controls>
+					<video id='my-video' width="480" height="270" poster='./stills/Big_Buck_Bunny_Trailer_480x270.png'>
 						<source src="./medias/Big_Buck_Bunny_Trailer.m4v" type="video/mp4" >
 						<source src="./medias/Big_Buck_Bunny_Trailer.ogv" type="video/ogg" >
 						<source src="./medias/Big_Buck_Bunny_Trailer.webm" type="video/webm" > 
 						<a href="http://jPlayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v">http://jPlayer.org/video/m4v/Big_Buck_Bunny_Trailer.m4v</a>
 					</video>
+					<!-- play - pause button -->
+					<button type='button' id='playVideoBtn'>Play Movie</button>
+					<br />
+					<br />
+					<button type='button' id='pauseVideoBtn'>Pause Movie</button>
 				</article>
 
 
@@ -35,6 +45,9 @@
 			</section>
 		</main>
 		<footer></footer>
+
+		<script src='./scripts/audioControls.js'></script>
+		<script src='./scripts/videoControls.js'></script>
 		
 	</body>
 </html>
