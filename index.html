@@ -7,6 +7,7 @@
 		<link href="./styles/normalize.css" rel="stylesheet">
 		<link href='./styles/skeleton.css' rel='stylesheet'>
 		<link href='./styles/project.css' rel='stylesheet'>
+		<script src="https://raw.github.com/cgiffard/Captionator/master/js/captionator-min.js"></script>
 	</head>
 	<body>
 		<header></header>
@@ -46,6 +47,19 @@
 					<button type='button' id='pauseVideoBtn'>Pause Movie</button>
 				</article>
 
+				<article id='captionPlayer' class='six columns'>
+					<video id='videoDemo' width="100%" controls>
+						<source src='http://happyworm.com/video/m4v/arduino.m4v' type="video/mp4" >
+						<source src="http://happyworm.com/video/webm/arduino.webm" type="video/webm" >
+						<source src="http://happyworm.com/video/ogv/arduino.ogv" type="video/ogg" >
+						<!-- VTT (srt) file must be on your local server --> 
+						<track kind='captions' src='arduino.vtt' type='text/vtt' srclang-'en' label='English Subtitles' default />
+						<div class='message'>
+							<p><strong>Sorry, you will need an HTML5 Video capable browser to view this example.</strong></p>
+						</div>
+					</video>
+				</article>
+
 				<article id='playlist'>
 					<ul id='tracklist'>
 						<li class='playlist-item' href='Miaow-01-Tempered-song'>Miaow - Tempered Song</li>
@@ -65,6 +79,11 @@
 		<script src='./scripts/audioControls.js'></script>
 		<script src='./scripts/videoControls.js'></script>
 		<script src='./scripts/playlist.js'></script>
+		<script>
+			window.onload = function() {
+				captionator.captionify();
+			}
+		</script>
 		
 	</body>
 </html>
