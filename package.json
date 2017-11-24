@@ -1,6 +1,6 @@
 {
   "name": "avbasics",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "This project follows the teachings of Mark Boas (originally from Frontend-Masters) from Pluralsight website in a course called HMTL5 Audio, Video and WebRTC.",
   "main": "index.html",
   "scripts": {},
@@ -11,8 +11,10 @@
   "keywords": [
     "html5",
     "pluralsight",
-    "joes",
-    "coffeeshop"
+    "audio",
+    "video",
+    "webvtt",
+    "playback-rate"
   ],
   "author": "Anthony Jackman",
   "license": "MIT",
