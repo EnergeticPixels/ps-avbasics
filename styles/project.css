@@ -7,3 +7,8 @@
 #videoPlayer {
 	background-color: tan;
 }
+.pbrdemo {
+	width: 640px;
+	height: 360;
+	margin: 0 auto 14em auto;
+}
